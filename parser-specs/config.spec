@@ -35,6 +35,7 @@ state INITIAL:
   'for_window'                             -> FOR_WINDOW
   'assign'                                 -> ASSIGN
   'no_focus'                               -> NO_FOCUS
+  'hide_tab_container'                     -> HIDE_TAB_CONTAINER
   'focus_follows_mouse'                    -> FOCUS_FOLLOWS_MOUSE
   'mouse_warping'                          -> MOUSE_WARPING
   'focus_wrapping'                         -> FOCUS_WRAPPING
