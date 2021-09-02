@@ -222,6 +222,11 @@ state CRITERION_STR:
   cvalue = word
       -> call cfg_criteria_add($ctype, $cvalue); CRITERIA
 
+# hide_tab_container bool
+state HIDE_TAB_CONTAINER:
+  value = word
+      -> call cfg_hide_tab_container($value)
+
 # focus_follows_mouse bool
 state FOCUS_FOLLOWS_MOUSE:
   value = word
